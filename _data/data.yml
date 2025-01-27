@@ -1,235 +1,226 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 header:
-  # Profile information
-  name: Fabien Culpo
-  tagline: DevOps - Cloud Solutions Architect
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-  email: fabien@culpo.fr
-  phone: +33 6 61 18 46 71
-  website: https://fabien.culpo.fr
-  linkedin: fabienculpo
-  github: fculpo
-  gitlab:
-  bitbucket:
-  twitter: "@fculpo"
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-
+  avatar: profile.jpg 
+  email: mark@markarsenault.tk
+  website: https://markarsenault.tk
+  phone: 289.969.32**
+# linkedin: mark-arsenault
+  github: mark-arsenault
+ 
 languages:
   - idiom: English
-    level: Fluent
-  - idiom: French
     level: Native
 
 interests:
-  - name: Cinema
+  - name: Musician
     link:
-  - name: Music / DJing
+  - name: Astrophotography
+    link: 
+  - name: Pentesting
     link:
 
 summary: |
-  Passionate about automation of on-premises or cloud infrastructures, I am looking forward to new DevOps/SRE challenges.
-
-  I particularly enjoy public cloud architecture design, and distributed computing (containers, microservices, kubernetes).
+  Hi, I'm Mark. I live and work out of St. Catharines Ontario. This page has a basic 
+  snapshot of my work history, skills, and some general information on what I do. Currently I
+  have been doing freelance work, as well as contributing to a number of OSS (Open-Source) 
+  projects. <br><br>
+  
+  15+ years of experience in design, development, testing, implementation and maintenance of 
+  web applications, web services and APIs using a variety of technologies. Extensive knowledge 
+  in Agile, Scrum, and TDD methodologies. I pride myself on my communication and strong 
+  relationship building skills. 
 
 education:
-  - degree: Engineering degree - IT
-    university: INSA Lyon - France
-    time: 2007 - 2012
+  - degree: Web & Graphic Design
+    university: Computer Training Institute
+    time: 2000 - 2001 
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: Computer and Network Security
-    university: Chalmers - Goteborg, Sweden
-    time: 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Obtained a diploma in Web Development & Graphic Design with grades
+      above 90% at the time of graduation. Subjects covered a wide range
+      of skill sets and applications.
+        - Graduated with honors
+        - Obtained fundamentals
 
 experiences:
-  - role: Senior Infrastructure Engineer - Security Specialist
-    time: 2020-04 - Present
-    company: Dawex, Lyon
+  - role: Full Stack Developer
+    time: 2019 - Present
+    company: Self-Employed Freelancer
     details: |
-      As Senior Infrastructure Engineer, I provision, configure, and destroy evolving infrastructures, used to host Dawex technology.
-      We primarily use container based architectures, deployed onto multiple public managed Kubernetes offerings (AWS, Azure, Orange, GCP).
+      Working as a freelancer has allowed me to pursue a wide range of skills in a variety of 
+      different markets. It’s also given me the freedom to strengthen my versatility in different
+      areas of design and development. These benefits are balanced by high volumes of responsibility,
+      and self-management. Freelancing, like many things, will give you back what you put into it.
 
-      Infrastructure as Code, Kubernetes CI/CD, and monitoring stacks are the main ones which I'm responsible for as of today.
+        - Client facing interaction
+        - Versatile full stack developing
+        - Time management, leadership, and responsibility
 
-      As Security Specialist, I need to ensure and enforce high security standards, both for our product and the company itself,
-      allowing me to work with all the teams, in order to build a state of the art platform.
-    technologies:
-      - Kubernetes
-      - EKS
-      - AKS
-      - Terraform
-      - Ansible
-      - Jsonnet / Helm
-  - role: Cloud Solutions Architect
-    time: 2019-09 - 2020-03
-    company: Gfi, Lyon
+  - role: Software Engineer
+    time: 2014 - 2019
+    company: Lotlinx Inc.
     details: |
-      AWS Solutions Architect inside the Cloud Fabric business unit.
-      - Design and implementation of cloud landing zones and workloads.
-      - Migration of existing customers on-premise infrastructures / applications to public cloud providers (mainly AWS / Azure).
+      Developed and maintained systems to manage ad platform integrations, inventory processing and 
+      publishing, and reporting APIs. A CD/CI, agile work environment that provides amazing product 
+      in the automobile marketing industry.
+
     technologies:
-      - Python
-      - Ansible
-      - Terraform
+      - Web Application Stack
+      - Java
+      - jUnit
+      - JSP & Tomcat
+      - Shell Scripting
+      - PHP
       - AWS
-      - CloudEndure
-      - Azure DevOps
+      - SQL
+      - Graph Database
+      - Microservices
+      - DevOps
 
-  - role: Lead DevOps Engineer
-    time: 2018-01 - 2019-09
-    company: OVHcloud, Lyon
+  - role: Web Developer
+    time: 2015 - 2016
+    company: FPM3
     details: |
-      As technical leader (4 people international team) of WorkspaceONE SaaS offer in partnership with VMware, we built and maintained a state of the art and opensource automation platform.
-      This platform allows to provision, configure and maintain a full software stack on hundreds of virtual machines, on multiple backends (Private / Public Cloud)
-        - Managed Kubernetes cluster hosting (mostly) Ansible / AWX (Tower) cluster and an Ansible inventory microservice (REST API via Python Eve)
-        - Data backed by OVH Database as a Service (MongoDB and PostgreSQL)
-        - Traefik cluster maintains SSL endpoints automagically
-        - All logs and metrics are collected and routed to respectively Graylog and Grafana, via Fluentd and Prometheus
-        - All Kubernetes containers are built, tested and deployed via a CI/CD stack (CDS)
-    technologies:
-      - Ansible / Tower
-      - VMware vSphere
-      - VMware WorkspaceONE
-      - Python
-      - MongoDB
-      - Grafana
-      - Prometheus
-      - Kubernetes
-      - CI/CD
+      Designed and developed web applications and user interface for various clients. Projects ranged
+      from setting the backend of e-commerce websites using Magento, to fixing site-related design 
+      problems and took the initiative to implement new features based on feedback from users. 
 
-  - role: Citrix Team Lead
-    time: SEPT. 2016 - DEC. 2017
-    company: EDF SA, Lyon/Marseille
+  - role: Web Developer
+    time: 2010 - 2012
+    company: VERB Interactive
     details: |
-      Head of a 7 people team, responsible for architecture and delivery of virtualization solutions (XenApp/XenDesktop),
-      for the whole French national energy provider company.
-
-      Our work allowed drastic savings during Windows 10 migration, by leveraging application publishing for old,
-      unsupported, but critical internal software.
+      Worked here as a Web Developer, Graphic Designer, with a lot of emphasis on front end design, and
+      marketing Call-To-Actions. VERB is a marketing agency who's primary focus is the tourism, and 
+      hospitality industry. Some notable clients include Pebble Beach, and Nassau Paradise Island.
     technologies:
-      - Citrix XenApp
-      - Citrix XenDesktop
-      - Windows Server
-      - Windows Desktop
+      - PHP
+      - JavaScript
+      - MySQL
+      - C#
+      - Photoshop
+      - Illustrator
+      - Flash
+      - Wordpress
+      - Drupal
+      - Joomla!
+      - HTML
+      - CSS
+      - SEO
+      - DevOps
 
-  - role: End-User Computing Consultant
-    time: SEPT. 2012 - AUG. 2016
-    company: LANexpert (Swisscom), Geneva - Switzerland
+  - role: Web Developer
+    time: 2009 - 2010
+    company: Compare Cellular
     details: |
-      As a consultant, I specialized in End-User Computing and helped multiple customers to design
-      and deploy such solutions.
-
-      - Customer advice on their internal IT strategy
-      - Design and delivery of technical solutions for end-user workspaces needs.
-      - Virtual Desktop Infrastructure and Virtual Applications delivery
-      - Enterprise Mobility and Unified Endpoint Management solutions
-      - Administration and automation of Windows / Linux server farms
+      Was part of a team that developed and maintained a comparative cellular rates service & APIs.
+      Our two main clients were (but not exclusively) Best Buy & Futureshop. Followed strict standards
+      and managed code base.
     technologies:
-      - Citrix XenApp
-      - Citrix XenDesktop
-      - VMware Horizon View
-      - Citrix XenMobile
-      - VMware AirWatch
-      - VMware WorkspaceONE
-      - Active Directory
-      - Puppet
+      - C#
+      - PHP 
+      - Subversion
+      - MySQL
+      - PostgreSQL
 
-awards:
-  - name: AWS Solutions Architect - Associate
-    description: JAN. 2020
-  - name: CNCF Certified Kubernetes Administrator
-    description: MAR. 2020
+  - role: Software Developer
+    time: 2007-2008
+    company: Ingenious Software
+    details: |
+      Wrote functional specifications for enhancements to a unified Management System for volunteer,
+      composite, and full-time Fire Departments. Was also involved in migrating the pre-existing
+      codebase into C#, and MySQL.
+    technologies:
+      - C#
+      - PHP 
+      - Subversion
+      - MySQL
+      - PostgreSQL
+      - Linux
 
-# Projects are not used in this template for now
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - role: Programmer & Junior DBA
+    time: 2006 - 2007
+    company: Tarasoft
+    details: |
+      Worked as a developer on Tarasoft’s Matrix product; then became one of the two MySQL database 
+      administrators. I was initially brought on to help migrate to MySQL, then signed a new contract
+      for an additional year.
+    technologies:
+      - C#
+      - PHP 
+      - Subversion
+      - MySQL
+      - PostgreSQL
+      - Linux
 
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+  - role: Full Stack Developer 
+    time: 2001 - 2006
+    company: Stenek Corporation
+    details: |
+      I was hired by Stenek to innovate and develope a business-to-business web solution for their 
+      wholesale distribution division. The project was a huge success that revolutionized the company. 
+      Stenek.com handled millions in sales from thousands of businesses in Atlantic Canada. All 
+      infrastructure (Web, Email, Data, and Application Servers) was in house, and my responsibility.
 
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      Stenek had an office supply retail division, and a print/copy centre division as well. I managed,
+      and worked at the printing division during my time at Stenek Corporation.
+    achievements:
+      desc: |
+        My first professional outing as a developer/coder; this job required constant learning, effective 
+        communication, and multi-tasking. I was the ONLY IT professional that worked at this company up 
+        until it's acquisition by logistics giant TNG in 2010.<br><br>
 
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-# Publications are not used in this template for now
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-    - title: The Art of Computer Programming
-      link: "#"
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
-
-    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-      link: "#"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    - title: A syntax directed compiler for Algol 60
-      link: "#"
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
-
+        The experience I gained at Stenek was invaluable. 
+    technologies:
+      - ASP/VBScript
+      - ASP.NET
+      - JavaScript
+      - C#.NET
+      - HTML
+      - CSS
+      - MySQL
+      - IIS
+      - Windows Servers
+      - Blackberry Web Apps
+      - Adobe Photoshop
+      - Illustrator
+      - High Volume Printing
+      
 skills:
-  - category: DevOps
+  - category: Backend
     tools:
-      - name: Ansible
-        level: 100%
-      - name: Puppet
-        level: 80%
-      - name: Terraform
-        level: 80%
-      - name: CI/CD
-        level: 80%
-  - category: Microservices
+      - name: Java
+      - name: Python
+      - name: Shell
+      - name: JavaScript
+      - name: HTML5
+      - name: CSS3
+      - name: Sass/LESS
+      - name: PHP
+      - name: NodeJS
+      - name: C++
+      - name: C#
+      - name: Ruby
+  - category: Tools and Libraries
     tools:
-      - name: Kubernetes
-        level: 90%
+      - name: Git
+      - name: Vim
+      - name: Netbeans
+      - name: PyCharm 
+      - name: Visual Studio Code
+      - name: Android Studio
       - name: Docker
-        level: 95%
-  - category: End User Computing
+      - name: Kubernetes
+      - name: Jira, Maven, jUnit
+      - name: Django
+      - name: Adobe Photoshop
+      - name: WordPress
+      - name: Drupal
+      - name: Joomla!
+  - category: others
     tools:
-      - name: VMware WorkspaceONE
-        level: 95%
-      - name: Citrix XenApp/XenDesktop
-        level: 80%
+      - Linux Systems
+      - Windows OS & Mac OS
+      - Code Review
+      - TDD
+      - CI/CD
+      - DevOps
+      - Agile Methodologies
+      - S.O.L.I.D Design Principals
