@@ -7,38 +7,22 @@ url: "https://spacetrout7.github.io" # the base hostname & protocol for your sit
 author: Mark Arsenault
 
 twitter:
-  username: 
-  card: 
+  username: fculpo
+  card: summary
 
 social:
   links:
-#    - https://twitter.com/mark-arsenault
-#    - https://www.facebook.com/mark-arsenault
-     - https://www.linkedin.com/in/mark-arsenault
-     - https://github.com/mark-arsenault
-#    - https://keybase.io/mark-arsenault
+    - https://twitter.com/fculpo
+    - https://www.linkedin.com/in/fabienculpo
+    - https://github.com/fculpo
 
-google_site_verification: # Put your google verification tag here
+google_site_verification: LWLcaTw_1TtT5QgF8F4DuEQiNFsV2sLjovpXyR1XcG8
 
-# End SEO
-
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: gray # gray blue turquoise green berry red
+remote_theme: fculpo/jekyll-pillar
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Build settings
-compress-site: yes
-
-encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
